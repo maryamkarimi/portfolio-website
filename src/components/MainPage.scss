@@ -7,6 +7,10 @@
   height: 100%;
   width: 100%;
   background-color: $darkblue;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
 .spinner {
