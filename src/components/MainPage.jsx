@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import SideBar from './SideBar/SideBar';
 import Intro from './Intro/Intro';
 import Banner from './Banner/Banner';
-import image from './background.png';
+import image from './background.jpg';
 import Timeline from './Timeline/Timeline';
 import Projects from './Projects/Projects';
 import ContactForm from './Contact/ContactForm';
