@@ -1,0 +1,111 @@
+{
+  "projects": [
+    {
+      "name": "IOM",
+      "description": "Incentive and Offer Management (IOM) a project consisting of several web applications, web services, and ETLs. \n This application is used by GM employees to author/publish incentives and offers. \n The webservices can be used to retrieve information related to incentives and offers for different customer types, geographies, vehicles, etc.",
+      "contributions": [
+        {
+          "subtitle": "Migration to Apache Solr",
+          "explanation": "Integrated a new search platform, Apache Solr, to IOM for performance improvements. Created several new modules using Java, Spring, and MyBatis."
+        },
+        {
+          "subtitle": "UI and Logic Modification",
+          "explanation": "Implemented new features based on requirements. Worked independently on the UI change requested by the client."
+        },
+        {
+          "subtitle": "Security and Speed Improvements",
+          "explanation": "Fixed various security vulnerabilities such as Cross Site Scripting (XSS) threats.\n Improved the execution time of a Spring Batch ETL by over 200% by re-writing and refactoring existing code."
+        }
+      ],
+      "languages": [
+        "Java",
+        "Spring",
+        "Solr",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Resource Management",
+      "description": "Resourcing App is a React web-application that allows managers to manage their resources by assigning them to different projects. \nThis app provides useful information around resource assignments in forms of graphs and tables, allowing the company to easily identify delivery units with under-allocated or over-allocated resources.",
+      "contributions": [
+        {
+          "subtitle": "Front-End",
+          "explanation": "Designed and Developed the frontend of the web-app using React and Redux. Each resource and project has a specific page on which data can be modified."
+        },
+        {
+          "subtitle": "Back-End",
+          "explanation": "Created RESTful APIs for the web-application, including endpoints to add/remove/update managers, roles, projects, resources, assignments, allocations, etc."
+        },
+        {
+          "subtitle": "Database",
+          "explanation": "Designed and Created a MySQL database to store the data. Created scripts to generate appropriate tables and query data from the tables."
+        }
+      ],
+      "languages": [
+        "Java",
+        "Spring",
+        "MySQL",
+        "React/Redux"
+      ]
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "A personal portfolio website designed and built by me using React to showcase some of my frontend skills.\n I'm using Amazon Route 53 and Amazon S3 for web hosting/domain management and Buddy for continuous deployment.",
+      "git": "https://github.com/maryamkarimi/Portfolio-Website",
+      "contributions": [
+      ],
+      "languages": [
+        "React",
+        "Bootstrap",
+        "Sass",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Junior Soccer Robots",
+      "description": "2-on-2 teams of autonomous mobile robots play in a highly dynamic environment, tracking a special light-emitting ball in an enclosed, land-marked field. \n The ultimate goal of the RoboCup project is by 2050, develop a team of fully autonomous humanoid robots that can win against the human world champion team in soccer.",
+      "contributions": [
+        {
+          "subtitle": "Teamwork",
+          "explanation": "Built small-sized soccer robots with AVR microcontrollers in a group of 4 students."
+        },
+        {
+          "subtitle": "Programming",
+          "explanation": "Worked mainly on the software portion of the robots: programmed microcontrollers in C, using CodeVisionAVR C Compiler."
+        },
+        {
+          "subtitle": "Leadership",
+          "explanation": "Led the robotic team for over two years."
+        },
+        {
+          "subtitle": "Competitions",
+          "explanation": "Participated in various robotic competitions, including international RoboCup2014 in Brazil."
+        }
+      ],
+      "languages": [
+        "C", "CodeVisionAVR"
+      ]
+    },
+    {
+      "name": "Course Management",
+      "description": "A Course Management System with three types of users: student, instructor, and administrator.\n This system provides different functionalities based on user type, such as adding/removing courses and users, assigning student and professors to a course, enrolling in courses, viewing grades, adding/editing grades, etc.",
+      "git": "https://github.com/maryamkarimi/Course-Management",
+      "contributions": [],
+      "languages": [
+        "Java",
+        "Swing"
+      ]
+    },
+    {
+      "name": "System Info",
+      "description": "A simple C++ Program for Linux environments which collects and reports various pieces of information about the system itself and displays it.\n Some of the information displayed by this program include memory, operating system, network interface, processor, and processes",
+      "git": "https://github.com/maryamkarimi/System-Info",
+      "contributions": [],
+      "languages": [
+        "C++"
+      ]
+    }
+
+
+  ]
+}

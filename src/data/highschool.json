@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "name": "Junior Soccer Robots",
+      "description": "Built small-sized soccer robots with AVR microcontrollers in a group of 4 students.■ Programmed microcontrollers in C, using CodeVisionAVR C Compiler. ■ Captained the robotic team for over two years. ■ Participated in various robotic competitions, including international RoboCup2014."
+    },
+    {
+      "name": "Frontend Development",
+      "description": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "C"
+    },
+    {
+      "name": "C++"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    }
+  ]
+}

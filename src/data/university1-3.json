@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "Magic Mirror",
+      "description": ""
+    },
+    {
+      "name": "Course Management",
+      "url": "https://github.com/maryamkarimi/Course-Management"
+    },
+    {
+      "name": "Various Games",
+      "description": "https://github.com/maryamkarimi/BlockedTicTacToe"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Structures"
+    },
+    {
+      "name": "Algorithms"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Git"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+@import 'src/styles/global';
+
+#courses {
+  background-color: $darkblue;
+  color: $moonraker;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 30px;
+}
+
+#courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#courses-header a {
+  color: $moonraker;
+}
+
+#courses-table a {
+  color: $lightgrey;
+}
+
+
+a:hover {
+  color: $moonraker;
+}
+
+
+#courses-table {
+  margin: 20px 0 0 0;
+  color: $lightgrey;
+}
+
+#courses-title {
+  margin: 20px 0 0 0;
+  text-align: center;
+  justify-content: center;
+}
+
+tr:hover {
+  background-color: lighten($darkblue, 5);
+}

@@ -1,0 +1,79 @@
+@import 'src/styles/global';
+
+.intro-container {
+  padding-top: 10vh;
+
+  h1 {
+    font-family: 'Titillium Web', sans-serif;
+    margin: -10px 0 40px -5px;
+  }
+
+  h6 {
+    line-height: 150%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-container {
+    padding-top: 5vh;
+  }
+}
+//
+//@media only screen and (min-width: 600px) {
+//  .intro-container {
+//    padding-top: 10vh;
+//  }
+//}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .intro-container {
+    padding-top: 15vh;
+  }
+}
+
+.resume-btn {
+  float: left;
+  background-color: transparent;
+  width: 100px;
+  margin-top: 15px;
+  padding: 8px;
+  border: 0.16em solid darken($blue, 20);
+  text-transform: uppercase;
+  color: darken($blue, 20);
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.resume-btn:hover {
+  color: $blue;
+  border-color: $blue;
+}
+
+.resume-btn:active {
+  color: $blue;
+  border-color: $blue;
+}
+
+.intro-mynameis {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  color: darken($blue, 2);
+}
+
+.intro-image {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.intro {
+  max-width: 800px;
+  color: darken(#97a0ba, 20);
+}
+
+.name {
+  color: darken($blue, 20);
+}
+
+.arrow-down {
+  margin-top: 65vh;
+}

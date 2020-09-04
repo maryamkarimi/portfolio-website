@@ -1,0 +1,30 @@
+.banner {
+  display: block;
+  width: 100%;
+}
+
+.parallax-banner-layer-0 {
+  background-position: top center !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .parallax-banner {
+    height: 400px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .parallax-banner {
+    height: 500px !important;
+  }
+
+}
+
+/* Medium devices and above */
+@media only screen and (min-width: 768px) {
+  .parallax-banner {
+    height: 100vh !important;
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../styles/colors';
+
+.modal-title {
+  color: $darkblue;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.modal-dialog {
+  width: 50%;
+}
+
+.modal-content {
+  background-color: $lightgrey;
+}

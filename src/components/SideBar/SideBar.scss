@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+
+.row {
+  opacity: 1 !important;
+}
+
+.side-contact {
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  top: 40%;
+  left: 7px;
+  background: rgba(240, 240, 240, 0.7);
+  border-radius: 2vh;
+  padding: 10px;
+  max-width: 50px;
+
+  .icon:hover {
+    color: lighten($darkblue, 10%);
+  }
+}
+
+.bottom-contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+
+  .icon:hover {
+    color: lighten($darkblue, 10%);
+  }
+}

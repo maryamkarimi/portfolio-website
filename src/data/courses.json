@@ -1,0 +1,157 @@
+{
+  "courses": [
+    {
+      "school": "uwindsor",
+      "id": "CS 100",
+      "name": "Key Concepts in Computer Science",
+      "grade": "97"
+    },
+    {
+      "school": "uwindsor",
+      "id": "CS 140",
+      "name": "Intro to Algorithms & Programming I",
+      "grade": "100"
+    },
+    {
+      "school": "uwindsor",
+      "id": "CS 141",
+      "name": "Intro to Algorithms & Programming II",
+      "grade": "100"
+    },
+    {
+      "school": "uwindsor",
+      "id": "CS 265",
+      "name": "Computer Architecture I",
+      "grade": "93"
+    },
+    {
+      "school": "uwindsor",
+      "id": "MATH 120",
+      "name": "Linear Algebra I",
+      "grade": "94"
+    },
+    {
+      "school": "uwindsor",
+      "id": "MATH 140",
+      "name": "Differential Calculus",
+      "grade": "95"
+    },
+    {
+      "school": "uwindsor",
+      "id": "MATH 141",
+      "name": "Integral Calculus",
+      "grade": "98"
+    },
+    {
+      "school": "uwindsor",
+      "id": "MATH 190",
+      "name": "Mathematical Foundations",
+      "grade": "96"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 1027A",
+      "schoolId": "MAIN_007954_1",
+      "name": "Computer Science Fundamentals II",
+      "grade": "96"
+    },
+    {
+      "school": "uwo",
+      "id": "MATH 2120B",
+      "schoolId": "MAIN_018802_1",
+      "name": "Intermediate Linear Algebra",
+      "grade": "83"
+    },
+    {
+      "school": "uwo",
+      "id": "MATH 2155F",
+      "schoolId": "MAIN_012129_1",
+      "name": "Mathematical Structures",
+      "grade": "91"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 2208B",
+      "schoolId": "MAIN_009552_1",
+      "name": "Introduction to Computer Organization and Architecture",
+      "grade": "86"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 2209A",
+      "schoolId": "MAIN_010277_1",
+      "name": "Applied Logic for Computer Science",
+      "grade": "82"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 2210B",
+      "schoolId": "MAIN_015753_1",
+      "name": "Data Structures and Algorithms",
+      "grade": "94"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 2212B",
+      "schoolId": "MAIN_015755_1",
+      "name": "Introduction to Software Engineering",
+      "grade": "95"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3319A",
+      "schoolId": "MAIN_003402_1",
+      "name": "Databases I",
+      "grade": "93"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3305A",
+      "schoolId": "MAIN_007260_1",
+      "name": "Operating Systems",
+      "grade": "84"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3307A",
+      "schoolId": "MAIN_010518_1",
+      "name": "Object-Oriented Design and Analysis",
+      "grade": "91"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3331A",
+      "schoolId": "MAIN_003608_1",
+      "name": "Foundations of Computer Science I",
+      "grade": "82"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3340B",
+      "schoolId": "MAIN_003719_1",
+      "name": "Analysis of Algorithms I",
+      "grade": "90"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3342B",
+      "schoolId": "MAIN_009511_1",
+      "name": "Organization of Programming Languages",
+      "grade": "100"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3350B",
+      "schoolId": "MAIN_011511_1",
+      "name": "Computer Architecture",
+      "grade": "93"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3377B",
+      "schoolId": "MAIN_013689_1",
+      "name": "Software Project Management",
+      "grade": "80"
+    }
+  ]
+}

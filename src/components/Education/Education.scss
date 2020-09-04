@@ -1,0 +1,17 @@
+@import 'src/styles/global';
+
+.education {
+  margin-bottom: 10px;
+}
+
+a {
+  color: $darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: lighten($blue, 5);
+}

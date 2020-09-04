@@ -1,0 +1,58 @@
+@import '../styles/colors';
+
+#load-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  background-color: $darkblue;
+}
+
+.spinner {
+  color: #9ec2e6;
+}
+
+#App {
+  background-color: $skyblue;
+}
+
+body {
+  background-color: $lightgrey;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+  background-color: $lightgrey;
+}
+
+.badge {
+  background-color: darken($blue, 10);
+}
+
+.timeline {
+  background-color: $lightgrey;
+}
+
+.badge {
+  margin: 1px;
+}
+
+h4 {
+  color: darken($blue, 10);
+}
+
+.bottom-contact-form {
+  max-width: 500px;
+  margin-top: 15px;
+}
+
+div[class^='col'] {
+  padding-left: 0;
+}
+
+.projects {
+  padding: 15px 0 10px 0;
+  background-color: $darkblue;
+  color: lighten($blue, 50);
+}
