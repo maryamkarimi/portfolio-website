@@ -17,7 +17,7 @@ function Projects() {
             md={{ offset: 1, span: 10 }}
             lg={{ offset: 2 }}
           >
-            <h2>Featured Projects</h2>
+            <h2 id="projects-title">Featured Projects</h2>
             <Row className="display-flex">
               {data.projects.map((project) => (
                 <Col key={project.name} xs={11} md={6} lg={5} className="project">
