@@ -51,11 +51,7 @@ h4 {
   margin-top: 15px;
 }
 
-div[class^='col'] {
-  padding-left: 0;
-}
-
-.projects {
+#projects {
   padding: 15px 0 10px 0;
   background-color: $darkblue;
   color: lighten($blue, 50);

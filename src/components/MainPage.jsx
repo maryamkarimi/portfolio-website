@@ -32,7 +32,7 @@ function MainPage() {
         </Row>
       </Container>
 
-      <div className="projects">
+      <div id="projects">
         <Projects />
         <Row className="d-none d-md-block">
           <h6 className="text-center">

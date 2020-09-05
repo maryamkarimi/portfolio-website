@@ -13,7 +13,7 @@ function Projects() {
       <Container fluid>
         <Row>
           <Col
-            xs={{ offset: 1, span: 11 }}
+            xs={{ span: 12 }}
             md={{ offset: 1, span: 10 }}
             lg={{ offset: 2 }}
           >
