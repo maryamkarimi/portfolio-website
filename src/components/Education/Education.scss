@@ -20,6 +20,37 @@ a:hover {
   transition: $property $duration $ease;
 }
 
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 350px) {
+  .learn-more {
+    width: 11rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 350px) {
+  .learn-more {
+    width: 15rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .learn-more {
+    width: 17rem;
+  }
+}
+
+
+/* Extra extra large devices*/
+@media only screen and (min-width: 1600px) {
+  .learn-more {
+    width: 21rem;
+  }
+}
+
+
 button {
   position: relative;
   display: inline-block;
@@ -31,7 +62,6 @@ button {
   padding: 0;
 
   &.learn-more {
-    width: 17rem;
     height: auto;
 
     .circle {
