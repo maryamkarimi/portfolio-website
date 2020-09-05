@@ -5,6 +5,7 @@
 
 .parallax-banner-layer-0 {
   background-position: top center !important;
+  z-index: 2;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -19,12 +20,15 @@
   .parallax-banner {
     height: 500px !important;
   }
-
 }
 
-/* Medium devices and above */
-@media only screen and (min-width: 768px) {
+/* Large devices and above */
+@media only screen and (min-width: 992px) {
   .parallax-banner {
-    height: 100vh !important;
+    height: 95vh !important;
+  }
+
+  #App {
+    margin-bottom: -20vh;
   }
 }
