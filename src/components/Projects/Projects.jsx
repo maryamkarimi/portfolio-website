@@ -21,7 +21,7 @@ function Projects() {
             <Row className="display-flex">
               {data.projects.map((project) => (
                 <Col key={project.name} xs={11} md={6} lg={5} className="project">
-                  <div className="d-block d-lg-none fill">
+                  <div className="d-block d-xl-none fill">
                     <ProjectCard
                       projectName={project.name}
                       projectDescription={project.description}
@@ -30,7 +30,7 @@ function Projects() {
                       gitHubURL={project.git}
                     />
                   </div>
-                  <div key={project.name} className="d-none d-lg-flex fill">
+                  <div key={project.name} className="d-none d-xl-flex fill">
                     <FlipCardProjectDescription
                       projectName={project.name}
                       projectDescription={project.description}
