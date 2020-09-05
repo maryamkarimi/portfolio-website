@@ -3,10 +3,11 @@ import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
 import Row from 'react-bootstrap/Row';
 import PropTypes from 'prop-types';
+import './ProjectSkills.scss';
 
 function ProjectSkills({ data }) {
   return (
-    <Row>
+    <Row className="row-no-padding">
       <Col md={12} xl={6}>
         <h5 className="font-weight-bolder">
           Projects:

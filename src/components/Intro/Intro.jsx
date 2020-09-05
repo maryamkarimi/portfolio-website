@@ -22,8 +22,7 @@ function Intro() {
               </h5>
               <h5>
                 I&apos;m currently completing my last year of Honors Specialization
-                in Computer Science at Western University. I&apos;m open to
-                opportunities upon my graduation in May 2021.
+                in Computer Science at Western University.
               </h5>
             </div>
 

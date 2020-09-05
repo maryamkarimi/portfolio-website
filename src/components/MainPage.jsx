@@ -23,13 +23,7 @@ function MainPage() {
           </Col>
         </Row>
         <Row>
-          <Banner image={image} height={400} />
-        </Row>
-        <Row className="timeline">
-          <Col md={1} lg={0} />
-          <Col sm={12} md={11} xl={12}>
-            <Timeline />
-          </Col>
+          <Banner image={image} />
         </Row>
       </Container>
 
