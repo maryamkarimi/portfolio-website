@@ -10,6 +10,7 @@ import image from './background.jpg';
 import Timeline from './Timeline/Timeline';
 import Projects from './Projects/Projects';
 import ContactForm from './Contact/ContactForm';
+import About from './About/About';
 
 function MainPage() {
   return (
@@ -31,6 +32,13 @@ function MainPage() {
           </Col>
         </Row>
       </Container>
+
+      <Row className="timeline">
+        <Col xs={{ span: 11 }} md={{ offset: 1 }} xl={{ offset: 0, span: 12 }}>
+          <About />
+          <Timeline />
+        </Col>
+      </Row>
 
       <div id="projects">
         <Projects />
