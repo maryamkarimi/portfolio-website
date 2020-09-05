@@ -26,7 +26,7 @@ function Intro() {
               </h5>
             </div>
 
-            <a href="/resume.pdf" className="resume-btn">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
               Resume
             </a>
 
