@@ -11,9 +11,7 @@
 }
 
 #courses-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  padding: 40px 0 0 0;
 }
 
 #courses-header a {
@@ -24,7 +22,6 @@
   color: $lightgrey;
 }
 
-
 a:hover {
   color: $moonraker;
 }
@@ -33,12 +30,6 @@ a:hover {
 #courses-table {
   margin: 20px 0 0 0;
   color: $lightgrey;
-}
-
-#courses-title {
-  margin: 20px 0 0 0;
-  text-align: center;
-  justify-content: center;
 }
 
 tr:hover {
