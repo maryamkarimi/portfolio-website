@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "IOM",
-      "description": "Incentive and Offer Management (IOM) a project consisting of several web applications, web services, and ETLs. \n This application is used by GM employees to author/publish incentives and offers. \n The webservices can be used to retrieve information related to incentives and offers for different customer types, geographies, vehicles, etc.",
+      "description": "Incentive and Offer Management (IOM) is a project consisting of several web applications, web services, and ETLs. \n This application is used by GM employees to author/publish incentives and offers. \n IOM webservices can be used to retrieve information related to incentives and offers for different customer types, geographies, vehicles, etc.",
       "contributions": [
         {
           "subtitle": "Migration to Apache Solr",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Course Management",
-      "description": "A Course Management System with three types of users: student, instructor, and administrator.\n This system provides different functionalities based on user type, such as adding/removing courses and users, assigning student and professors to a course, enrolling in courses, viewing grades, adding/editing grades, etc.",
+      "description": "A Course Management System with three types of users: student, instructor, and administrator.\n This system provides different functionalities for each user type such as adding/removing courses and users, assigning student and professors to courses, enrolling students in courses, viewing grades, adding/editing grades, etc.",
       "git": "https://github.com/maryamkarimi/Course-Management",
       "contributions": [],
       "languages": [
@@ -98,7 +98,7 @@
     },
     {
       "name": "System Info",
-      "description": "A simple C++ Program for Linux environments which collects and reports various pieces of information about the system itself and displays it.\n Some of the information displayed by this program include memory, operating system, network interface, processor, and processes",
+      "description": "A simple C++ program for Linux environments which collects and reports various pieces of information about the system itself and displays it.\n Some of the information displayed by this program include memory, operating system, network interface, processor, and processes",
       "git": "https://github.com/maryamkarimi/System-Info",
       "contributions": [],
       "languages": [

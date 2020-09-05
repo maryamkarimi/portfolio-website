@@ -41,7 +41,7 @@ function MainPage() {
         </Row>
       </div>
 
-      <Container fluid className="footer">
+      <Container fluid id="footer">
         <Row bsPrefix="d-block d-md-none">
           <Container className="bottom-contact-form">
             <ContactForm />
@@ -49,7 +49,7 @@ function MainPage() {
           <SideBar type="bottom-contact" iconColor="#0e2235" />
         </Row>
         <Row className="justify-content-center d-md-none">
-          <h6>
+          <h6 className="copyright">
             Designed and Built by Maryam Karimi
           </h6>
         </Row>

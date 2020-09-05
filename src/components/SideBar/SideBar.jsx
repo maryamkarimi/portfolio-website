@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './SideBar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubSquare, faLinkedin, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faPenSquare } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import ContactModal from '../Contact/ContactModal';
@@ -15,13 +15,12 @@ function SideBar({ type, iconColor }) {
 
   return (
     <div className={type}>
-
-      <a href={`mailto:${contactInfo.email}`}>
-        <FontAwesomeIcon className="icon animate__animated animate__delay-1s animate__rotateInDownRight" icon={faEnvelopeSquare} size="2x" color={iconColor} />
+      <a className="d-none d-md-block" onClick={handleShow}>
+        <FontAwesomeIcon className="icon animate__animated animate__delay-1s animate__rotateInDownRight" icon={faPenSquare} size="2x" color={iconColor} />
       </a>
 
-      <a className="d-none d-md-block" onClick={handleShow}>
-        <FontAwesomeIcon className="icon animate__animated animate__delay-2s  animate__rotateInDownLeft" icon={faPenSquare} size="2x" color={iconColor} />
+      <a href={`mailto:${contactInfo.email}`}>
+        <FontAwesomeIcon className="icon animate__animated animate__delay-2s animate__rotateInDownLeft" icon={faEnvelopeSquare} size="2x" color={iconColor} />
       </a>
 
       <a href={contactInfo.linkedIn} target="_blank" rel="noopener noreferrer">
@@ -30,10 +29,6 @@ function SideBar({ type, iconColor }) {
 
       <a href={contactInfo.gitHub} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon className="icon animate__animated animate__delay-4s animate__rotateInDownLeft" icon={faGithubSquare} size="2x" color={iconColor} />
-      </a>
-
-      <a href={contactInfo.instagram} className="d-block d-md-none" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon className="icon animate__animated animate__delay-2s animate__rotateInDownLeft" icon={faInstagramSquare} size="2x" color={iconColor} />
       </a>
 
       <ContactModal handleClose={handleClose} show={show} />

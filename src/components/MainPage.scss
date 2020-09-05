@@ -26,7 +26,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.footer {
+#footer {
   background-color: $lightgrey;
 }
 
@@ -59,4 +59,8 @@ div[class^='col'] {
   padding: 15px 0 10px 0;
   background-color: $darkblue;
   color: lighten($blue, 50);
+}
+
+.copyright {
+  padding: 10px;
 }
