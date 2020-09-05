@@ -2,12 +2,20 @@
 
 #courses {
   background-color: $darkblue;
-  color: $moonraker;
+  color: $skyblue;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   padding-bottom: 30px;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+#courses-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 #courses-header {
@@ -15,7 +23,7 @@
 }
 
 #courses-header a {
-  color: $moonraker;
+  color: $skyblue;
 }
 
 #courses-table a {
@@ -26,12 +34,26 @@ a:hover {
   color: $moonraker;
 }
 
-
 #courses-table {
   margin: 20px 0 0 0;
   color: $lightgrey;
 }
 
+.table td, .table th, .table thead th {
+  border-color: #8892b0;
+}
+
 tr:hover {
   background-color: lighten($darkblue, 5);
+}
+
+.courses-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $skyblue;
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

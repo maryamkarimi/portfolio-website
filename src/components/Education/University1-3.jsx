@@ -29,15 +29,18 @@ function University13() {
               Minor in Software Engineering
             </h5>
           </Row>
-          <Row>
-            <h5 className="font-weight-bold text-black-50">
-              <Link to="/courses">
-                See Courses
-              </Link>
-            </h5>
-          </Row>
           <ProjectSkills data={data} />
         </Container>
+      </Row>
+      <Row>
+        <Link to="/courses">
+          <button type="button" className="learn-more">
+            <span className="circle">
+              <span className="icon arrow" />
+            </span>
+            <h6 className="button-text">See courses and grades</h6>
+          </button>
+        </Link>
       </Row>
     </Container>
   );
