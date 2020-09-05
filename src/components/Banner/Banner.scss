@@ -40,3 +40,15 @@
     margin-bottom: -20vh;
   }
 }
+
+/* Large devices and above */
+@media only screen and (min-width: 1200px) {
+  .parallax-banner {
+    height: 90vh !important;
+  }
+
+  #App {
+    height: 30vh;
+    margin-bottom: -20vh;
+  }
+}
