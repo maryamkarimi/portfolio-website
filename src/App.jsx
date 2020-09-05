@@ -11,8 +11,8 @@ import Courses from './components/Courses/Courses';
 
 function App() {
   const initGA = () => {
-    ReactGA.initialize('UA-177220197-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.initialize('UA-177220197-1');
+    // ReactGA.pageview(window.location.pathname + window.location.search);
   };
 
   useEffect(() => { initGA(); }, []);
