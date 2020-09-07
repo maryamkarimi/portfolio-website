@@ -8,7 +8,7 @@ import resources from './resources.jpg';
 import robots from './robots.jpeg';
 import courses from './courses.png';
 import portfolio from './portfolio.png';
-import cpp from './c++.png';
+import cpp from './cpp.png';
 
 function FlipCardProjectDescription({
   projectName, projectDescription, languages, gitHubURL,
