@@ -17,6 +17,7 @@
 #about-image-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #about-image {
@@ -26,7 +27,7 @@
 }
 
 #about-image-frame {
-  margin: 50px 0 60px 15px;
+  margin: 50px 0 60px 0;
   position: relative;
 }
 

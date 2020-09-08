@@ -30,21 +30,21 @@ function About() {
   );
   return (
     <Container id="about">
-      <Row>
-        <Col
-            xs={{offset: 1, span: 10}}
-            md={{offset: 0, span: 11}}
-            lg={{ span: 7 }}
-            className=""
-        >
-          <h2>About Me</h2>
-          {aboutText()}
-        </Col>
-        <Col xs={12} lg={5} id="about-image-container">
-          <div id="about-image-frame">
-            <img id="about-image" src={image} alt="maryamkarimi" />
-          </div>
-        </Col>
+      <Row className="display-flex">
+          <Col
+              xs={{offset: 1, span: 10}}
+              md={{offset: 0, span: 11}}
+              lg={{span: 7}}
+              className=""
+          >
+              <h2>About Me</h2>
+              {aboutText()}
+          </Col>
+          <Col xs={12} lg={5} id="about-image-container">
+              <div id="about-image-frame">
+                  <img id="about-image" src={image} alt="maryamkarimi"/>
+              </div>
+          </Col>
       </Row>
     </Container>
   );
