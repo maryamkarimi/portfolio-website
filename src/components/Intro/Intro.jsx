@@ -9,7 +9,7 @@ function Intro() {
     <div id="App">
       <Container fluid>
         <Row id="intro-container">
-          <Col id="intro-text" xs={{ offset: 1 }} xl={{ offset: 2 }}>
+          <Col id="intro-text" xs={{offset: 1}}>
             <h5 className="intro-mynameis animate__animated">
               Hi, my name is
             </h5>
