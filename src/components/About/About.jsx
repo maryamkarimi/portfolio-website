@@ -32,10 +32,10 @@ function About() {
     <Container id="about">
       <Row>
         <Col
-          xs={{ offset: 1, span: 11 }}
-          md={{ offset: 0, span: 11 }}
-          lg={{ span: 7 }}
-          className=""
+            xs={{offset: 1, span: 10}}
+            md={{offset: 0, span: 11}}
+            lg={{ span: 7 }}
+            className=""
         >
           <h2>About Me</h2>
           {aboutText()}

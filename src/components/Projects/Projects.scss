@@ -46,7 +46,7 @@
 
 .project {
   //margin: 2px;
-  padding: 20px 0 20px 20px;
+  padding: 10px 10px 10px 10px;
 
   h4, h5 {
     color: lighten($blue, 40);
@@ -85,9 +85,24 @@
 }
 
 .img-div {
-  height: 200px;
   display: flex;
 }
+
+
+/* Small devices and below */
+@media only screen and (max-width: 768px) {
+  .img-div {
+    height: 200px;
+  }
+}
+
+/* Medium devices and up */
+@media only screen and (min-width: 768px) {
+  .img-div {
+    height: 300px;
+  }
+}
+
 
 img {
   object-fit: cover;
@@ -112,7 +127,6 @@ img {
   justify-content: space-between;
   align-items: stretch;
 }
-
 
 .regular-card-langs {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;

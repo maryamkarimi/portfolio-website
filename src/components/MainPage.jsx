@@ -28,9 +28,9 @@ function MainPage() {
       </Container>
 
       <Row className="timeline">
-        <Col xs={{ span: 11 }} md={{ offset: 1 }} xl={{ offset: 0, span: 12 }}>
-          <About />
-          <Timeline />
+        <Col xs={12} md={{offset: 1, span: 10}} xl={{offset: 0, span: 12}}>
+            <About/>
+            <Timeline/>
         </Col>
       </Row>
 

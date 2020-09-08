@@ -5,7 +5,6 @@ import './Projects.scss';
 import Col from 'react-bootstrap/Col';
 import data from '../../data/projects.json';
 import ProjectCard from './ProjectCard';
-import FlipCardProjectDescription from './FlipCardProjectDescription';
 
 function Projects() {
   return (
@@ -13,33 +12,23 @@ function Projects() {
       <Container fluid>
         <Row>
           <Col
-            xs={{ span: 12 }}
-            md={{ offset: 1, span: 10 }}
-            lg={{ offset: 2 }}
+              xs={12}
+              md={{offset: 1, span: 10}}
           >
             <h2 id="projects-title">Featured Projects</h2>
             <Row className="display-flex">
               {data.projects.map((project) => (
-                <Col key={project.name} xs={11} md={6} lg={5} className="project">
-                  <div className="d-block d-xl-none fill">
-                    <ProjectCard
-                      projectName={project.name}
-                      projectDescription={project.description}
-                      projectContributions={project.contributions}
-                      languages={project.languages}
-                      gitHubURL={project.git}
-                    />
-                  </div>
-                  <div key={project.name} className="d-none d-xl-flex fill">
-                    <FlipCardProjectDescription
-                      projectName={project.name}
-                      projectDescription={project.description}
-                      projectContributions={project.contributions}
-                      languages={project.languages}
-                      gitHubURL={project.git}
-                    />
-                  </div>
-                </Col>
+                  <Col key={project.name} xs={12} md={6} className="project">
+                    <div className="fill">
+                      <ProjectCard
+                          projectName={project.name}
+                          projectDescription={project.description}
+                          projectContributions={project.contributions}
+                          languages={project.languages}
+                          gitHubURL={project.git}
+                      />
+                    </div>
+                  </Col>
               ))}
             </Row>
           </Col>
