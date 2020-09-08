@@ -86,23 +86,8 @@
 
 .img-div {
   display: flex;
+  height: 200px;
 }
-
-
-/* Small devices and below */
-@media only screen and (max-width: 768px) {
-  .img-div {
-    height: 200px;
-  }
-}
-
-/* Medium devices and up */
-@media only screen and (min-width: 768px) {
-  .img-div {
-    height: 300px;
-  }
-}
-
 
 img {
   object-fit: cover;

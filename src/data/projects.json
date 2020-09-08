@@ -51,19 +51,6 @@
       ]
     },
     {
-      "name": "Portfolio Website",
-      "description": "A personal portfolio website designed and built by me using React to showcase some of my frontend skills.\n I'm using Amazon Route 53 and Amazon S3 for web hosting/domain management and Buddy for continuous deployment.",
-      "git": "https://github.com/maryamkarimi/Portfolio-Website",
-      "contributions": [
-      ],
-      "languages": [
-        "React",
-        "Bootstrap",
-        "Sass",
-        "AWS"
-      ]
-    },
-    {
       "name": "Resource Management",
       "description": "Resourcing App is a React web-application that allows managers to manage their resources by assigning them to different projects. \nThis app provides useful information around resource assignments in forms of graphs and tables, allowing the company to easily identify delivery units with under-allocated or over-allocated resources.",
       "contributions": [
@@ -85,6 +72,19 @@
         "Spring",
         "MySQL",
         "React/Redux"
+      ]
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "A personal portfolio website designed and built by me using React to showcase some of my frontend skills.\n I'm using Amazon Route 53 and Amazon S3 for web hosting/domain management and Buddy for continuous deployment.",
+      "git": "https://github.com/maryamkarimi/Portfolio-Website",
+      "contributions": [
+      ],
+      "languages": [
+        "React",
+        "Bootstrap",
+        "Sass",
+        "AWS"
       ]
     },
     {

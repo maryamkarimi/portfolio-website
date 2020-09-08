@@ -18,7 +18,7 @@ function Projects() {
             <h2 id="projects-title">Featured Projects</h2>
             <Row className="display-flex">
               {data.projects.map((project) => (
-                  <Col key={project.name} xs={12} md={6} className="project">
+                  <Col key={project.name} xs={12} md={6} xl={4} className="project">
                     <div className="fill">
                       <ProjectCard
                           projectName={project.name}
