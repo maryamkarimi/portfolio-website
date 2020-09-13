@@ -46,7 +46,8 @@ function Courses() {
                       {course.school === 'uwo'
                         && (
                         <td>
-                          <a href={`https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=${course.schoolId}`}>
+                          <a target="_blank" rel="noopener noreferrer"
+                             href={`https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=${course.schoolId}`}>
                             <h5>
                               {course.id}
                             </h5>
