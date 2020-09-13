@@ -152,6 +152,55 @@
       "schoolId": "MAIN_013689_1",
       "name": "Software Project Management",
       "grade": "80"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3357A",
+      "schoolId": "MAIN_011697_1",
+      "name": "COMPUTER NETWORKS I",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4411B",
+      "schoolId": "MAIN_011947_1",
+      "name": "Databases II",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4414A",
+      "schoolId": "MAIN_027927_1",
+      "name": "Introduction to Data Science I",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4417B",
+      "schoolId": "MAIN_028240_1",
+      "name": "Unstructured Data",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4470Y",
+      "schoolId": "MAIN_013690_1",
+      "name": "Software Maintenance & Configuration Management",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4474A",
+      "schoolId": "MAIN_013694_1",
+      "name": "Human-Computer Interaction",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 4478Y",
+      "schoolId": "MAIN_026494_1",
+      "name": "Master the Mainframe",
+      "grade": "TBA"
     }
   ]
 }
