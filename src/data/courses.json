@@ -148,17 +148,24 @@
     },
     {
       "school": "uwo",
-      "id": "CS 3377B",
-      "schoolId": "MAIN_013689_1",
-      "name": "Software Project Management",
-      "grade": "80"
+      "id": "CS 3346A",
+      "schoolId": "MAIN_006812_1",
+      "name": "Artificial Intelligence I",
+      "grade": "TBA"
     },
     {
       "school": "uwo",
       "id": "CS 3357A",
       "schoolId": "MAIN_011697_1",
-      "name": "COMPUTER NETWORKS I",
+      "name": "Computer Networks I",
       "grade": "TBA"
+    },
+    {
+      "school": "uwo",
+      "id": "CS 3377B",
+      "schoolId": "MAIN_013689_1",
+      "name": "Software Project Management",
+      "grade": "80"
     },
     {
       "school": "uwo",
@@ -169,16 +176,16 @@
     },
     {
       "school": "uwo",
-      "id": "CS 4414A",
-      "schoolId": "MAIN_027927_1",
-      "name": "Introduction to Data Science I",
+      "id": "CS 4417B",
+      "schoolId": "MAIN_028240_1",
+      "name": "Unstructured Data",
       "grade": "TBA"
     },
     {
       "school": "uwo",
-      "id": "CS 4417B",
-      "schoolId": "MAIN_028240_1",
-      "name": "Unstructured Data",
+      "id": "CS 4438B",
+      "schoolId": "MAIN_017248_1",
+      "name": "Internet Algorithms",
       "grade": "TBA"
     },
     {
