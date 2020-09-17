@@ -46,8 +46,11 @@ function Courses() {
                       {course.school === 'uwo'
                         && (
                         <td>
-                          <a target="_blank" rel="noopener noreferrer"
-                             href={`https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=${course.schoolId}`}>
+                          <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href={`https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=${course.schoolId}`}
+                          >
                             <h5>
                               {course.id}
                             </h5>
@@ -55,7 +58,7 @@ function Courses() {
                         </td>
                         )}
                       {course.school !== 'uwo'
-                        && <td><h5>{course.id}</h5></td>}
+                      && <td><h5>{course.id}</h5></td>}
                       <td><h5>{course.name}</h5></td>
                       <td><h5>{course.grade}</h5></td>
                     </tr>
@@ -64,14 +67,15 @@ function Courses() {
               </Table>
             </Col>
           </Row>
+          <div className="courses-footer">
+            <SideBar type="bottom-contact" iconColor="#0e2235"/>
+            <h6 className="text-center">
+              Designed and Built by Maryam Karimi
+            </h6>
+          </div>
         </Container>
       </div>
-      <div className="courses-footer">
-        <SideBar type="bottom-contact" iconColor="#0e2235" />
-        <h6 className="text-center">
-          Designed and Built by Maryam Karimi
-        </h6>
-      </div>
+
     </div>
 
   );
