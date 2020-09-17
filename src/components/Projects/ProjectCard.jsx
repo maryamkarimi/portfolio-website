@@ -9,7 +9,7 @@ import resources from './resources.jpg';
 import robots from './robots.jpeg';
 import courses from './courses.png';
 import portfolio from './portfolio.png';
-import cpp from './cpp.png';
+import sysinfo from './sysinfo.png';
 
 function ProjectCard({
   projectName, projectDescription, languages, gitHubURL,
@@ -38,7 +38,7 @@ function ProjectCard({
     }
 
     if (projectName === 'System Info') {
-      return cpp;
+      return sysinfo;
     }
 
     return '';

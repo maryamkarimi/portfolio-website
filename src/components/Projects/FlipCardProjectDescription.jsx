@@ -8,7 +8,7 @@ import resources from './resources.jpg';
 import robots from './robots.jpeg';
 import courses from './courses.png';
 import portfolio from './portfolio.png';
-import cpp from './cpp.png';
+import sysinfo from './sysinfo.png';
 
 function FlipCardProjectDescription({
   projectName, projectDescription, languages, gitHubURL,
@@ -35,7 +35,7 @@ function FlipCardProjectDescription({
     }
 
     if (projectName === 'System Info') {
-      return cpp;
+      return sysinfo;
     }
 
     return '';
