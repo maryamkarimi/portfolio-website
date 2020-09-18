@@ -4,9 +4,8 @@ export const sendEmail = (body) => {
   const headers = new Headers({
     'Content-Type': 'application/json',
   });
-
-  console.log(JSON.stringify(body));
-  return fetch(`${getApiUrl()}`,
+  
+    return fetch(`${getApiUrl()}`,
     {
       method: 'POST',
       headers,
