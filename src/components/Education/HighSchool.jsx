@@ -18,8 +18,11 @@ function HighSchool() {
               two-step set of exams. The organization is aimed to provide a unique
               educational environment for the exceptionally talented students.
             </h5>
+            <h5>
+              GPA: 4.0
+            </h5>
           </Row>
-          <ProjectSkills data={data} />
+          <ProjectSkills data={data}/>
         </Container>
       </Row>
 
