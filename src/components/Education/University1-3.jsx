@@ -29,7 +29,12 @@ function University13() {
               Minor in Software Engineering
             </h5>
           </Row>
-          <ProjectSkills data={data} />
+          <Row>
+            <h5>
+              GPA: 3.9
+            </h5>
+          </Row>
+          <ProjectSkills data={data}/>
         </Container>
       </Row>
       <Row>
