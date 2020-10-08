@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/global.scss';
 import { Route, Switch } from 'react-router';
@@ -15,17 +15,8 @@ function App() {
     ReactGA.pageview(window.location.pathname + window.location.search);
   };
 
-  const [showPreLoader, setShowPreLoader] = useState(true);
-  const displayPreloader = () => {
-    setShowPreLoader(true);
-    setTimeout(() => {
-      setShowPreLoader(false);
-    }, 2000);
-  };
-
   useEffect(() => {
     initGA();
-    displayPreloader();
   }, []);
 
   return (
@@ -36,16 +27,13 @@ function App() {
             <Route path="/courses" component={Courses}/>
           </Switch>
         </BrowserRouter>
-        {showPreLoader
-        && (
-            <Preloader>
-              <Placeholder>
-                <div id="load-page" className="center text-center">
-                  <Spinner className="spinner" animation="border" role="status"/>
-                </div>
-              </Placeholder>
-            </Preloader>
-        )}
+        <Preloader>
+          <Placeholder>
+            <div id="load-page" className="center text-center">
+              <Spinner className="spinner" animation="border" role="status"/>
+            </div>
+          </Placeholder>
+        </Preloader>
       </div>
   );
 }
