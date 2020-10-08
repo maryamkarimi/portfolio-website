@@ -25,7 +25,7 @@ function App() {
           <Route path="/courses" component={Courses}/>
         </Switch>
       </BrowserRouter>
-      <Preloader fadeDuration={10}>
+      <Preloader>
         <Placeholder>
           <div id="load-page" className="center text-center">
             <Spinner className="spinner" animation="border" role="status"/>
