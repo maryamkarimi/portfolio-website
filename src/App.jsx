@@ -21,14 +21,14 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={MainPage} exact />
-          <Route path="/courses" component={Courses} />
+          <Route path="/" component={MainPage} exact/>
+          <Route path="/courses" component={Courses}/>
         </Switch>
       </BrowserRouter>
-      <Preloader>
+      <Preloader fadeDuration={10}>
         <Placeholder>
           <div id="load-page" className="center text-center">
-            <Spinner className="spinner" animation="border" role="status" />
+            <Spinner className="spinner" animation="border" role="status"/>
           </div>
         </Placeholder>
       </Preloader>
