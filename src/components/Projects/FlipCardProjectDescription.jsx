@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import gm from './gm.jpg';
 import resources from './resources.jpg';
-import robots from './robots.jpeg';
+import robots from './robots.jpg';
 import courses from './courses.png';
 import portfolio from './portfolio.png';
 import sysinfo from './sysinfo.png';
