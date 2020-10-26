@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faSchool, faGraduationCap, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import University13 from '../Education/University1-3';
 import WorkExperience from '../Work/WorkExperience';
