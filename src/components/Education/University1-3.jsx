@@ -2,8 +2,8 @@ import React from 'react';
 import './Education.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { Link } from 'react-router-dom';
-import data from '../../data/university1-3.json';
+import {Link} from 'react-router-dom';
+import data from '../../assets/content/university1-3.json';
 import ProjectSkills from '../ProjectsSkills/ProjectSkills';
 
 function University13() {

@@ -2,18 +2,18 @@ import React from 'react';
 import './Projects.scss';
 import Card from 'react-bootstrap/Card';
 import PropTypes from 'prop-types';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import gm from './gm.jpg';
-import resources from './resources.jpg';
-import robots from './robots.jpg';
-import courses from './courses.png';
-import portfolio from './portfolio.png';
-import sysinfo from './sysinfo.png';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import gm from '../../assets/gm.jpg';
+import resources from '../../assets/resources.jpg';
+import robots from '../../assets/robots.jpg';
+import courses from '../../assets/courses.png';
+import portfolio from '../../assets/portfolio.png';
+import sysinfo from '../../assets/sysinfo.png';
 
 function ProjectCard({
-  projectName, projectDescription, languages, gitHubURL,
-}) {
+                       projectName, projectDescription, languages, gitHubURL,
+                     }) {
   // const [open, setOpen] = useState(false);
 
   const image = () => {

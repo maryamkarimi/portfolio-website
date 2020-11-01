@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import data from '../../data/work.json';
+import data from '../../assets/content/work.json';
 import ProjectSkills from '../ProjectsSkills/ProjectSkills';
 
 function WorkExperience() {

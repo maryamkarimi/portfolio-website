@@ -5,7 +5,7 @@ import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faPenSquare } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import ContactModal from '../Contact/ContactModal';
-import contactInfo from '../../data/contact.json';
+import contactInfo from '../../assets/content/contact.json';
 
 function SideBar({ type, iconColor }) {
   const [show, setShow] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import './Education.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import data from '../../data/highschool.json';
+import data from '../../assets/content/highschool.json';
 import ProjectSkills from '../ProjectsSkills/ProjectSkills';
 
 function HighSchool() {
