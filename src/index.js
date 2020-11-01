@@ -6,8 +6,8 @@ import App from './App';
 import 'animate.css/animate.min.css';
 
 ReactDOM.render(
-        <ParallaxProvider>
-            <App/>
-        </ParallaxProvider>,
-        document.getElementById('root'),
+    <ParallaxProvider>
+        <App />
+    </ParallaxProvider>,
+    document.getElementById('root'),
 );
