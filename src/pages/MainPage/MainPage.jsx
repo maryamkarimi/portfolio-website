@@ -21,11 +21,11 @@ function MainPage() {
                     <Col md={1}>
                         <SideBar type="side-contact" iconColor="#0e2235"/>
                     </Col>
-        </Row>
-        <Row>
-          <Banner image={image} />
-        </Row>
-      </Container>
+                </Row>
+                <Row>
+                    <Banner image={image}/>
+                </Row>
+            </Container>
 
             <Row className="timeline">
                 <Col xs={12} md={{offset: 1, span: 10}} xl={{offset: 0, span: 12}}>
@@ -34,14 +34,14 @@ function MainPage() {
                 </Col>
             </Row>
 
-      <div id="projects">
-        <Projects />
-        <Row className="d-none d-md-block">
-          <h6 className="text-center">
-            Designed and Built by Maryam Karimi
-          </h6>
-        </Row>
-      </div>
+            <div id="projects">
+                <Projects/>
+                <Row className="d-none d-md-block">
+                    <h6 className="text-center">
+                        Designed and Built by Maryam Karimi
+                    </h6>
+                </Row>
+            </div>
 
       <Container fluid id="footer">
         <Row bsPrefix="d-block d-md-none">

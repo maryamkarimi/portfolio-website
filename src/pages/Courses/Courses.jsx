@@ -19,15 +19,15 @@ function Courses() {
               <Col xs={{span: 10}} sm={{span: 11}}>
                 <h2>
                   List of Courses
-              </h2>
-            </Col>
-            <Col>
-              <h2>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faHome} />
-                </Link>
-              </h2>
-            </Col>
+                </h2>
+              </Col>
+              <Col>
+                <h2>
+                  <Link to="/">
+                    <FontAwesomeIcon icon={faHome}/>
+                  </Link>
+                </h2>
+              </Col>
 
           </Row>
           <Row>
