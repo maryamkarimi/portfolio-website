@@ -3,22 +3,22 @@ import './Courses.scss';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
 import Row from 'react-bootstrap/Row';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faHome} from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
-import data from '../../data/courses.json';
-import SideBar from '../SideBar/SideBar';
+import data from '../../assets/content/courses.json';
+import SideBar from '../../components/SideBar/SideBar';
 
 function Courses() {
   return (
-    <div>
-      <div id="courses">
-        <Container id="courses-container">
-          <Row id="courses-header">
-            <Col xs={{ span: 10 }} sm={{ span: 11 }}>
-              <h2>
-                List of Courses
+      <div>
+        <div id="courses">
+          <Container id="courses-container">
+            <Row id="courses-header">
+              <Col xs={{span: 10}} sm={{span: 11}}>
+                <h2>
+                  List of Courses
               </h2>
             </Col>
             <Col>

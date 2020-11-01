@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/global.scss';
-import { Route, Switch } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
-import { Placeholder, Preloader } from 'react-preloading-screen';
-import { Spinner } from 'react-bootstrap';
+import {Route, Switch} from 'react-router';
+import {BrowserRouter} from 'react-router-dom';
+import {Placeholder, Preloader} from 'react-preloading-screen';
+import {Spinner} from 'react-bootstrap';
 import ReactGA from 'react-ga';
-import MainPage from './components/MainPage';
-import Courses from './components/Courses/Courses';
+import MainPage from './pages/MainPage/MainPage';
+import Courses from './pages/Courses/Courses';
 
 function App() {
   const initGA = () => {

@@ -3,36 +3,36 @@ import './MainPage.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SideBar from './SideBar/SideBar';
-import Intro from './Intro/Intro';
-import Banner from './Banner/Banner';
-import image from './background.jpg';
-import Timeline from './Timeline/Timeline';
-import Projects from './Projects/Projects';
-import ContactForm from './Contact/ContactForm';
-import About from './About/About';
+import SideBar from '../../components/SideBar/SideBar';
+import Intro from '../../components/Intro/Intro';
+import Banner from '../../components/Banner/Banner';
+import image from '../../assets/background.jpg';
+import Timeline from '../../components/Timeline/Timeline';
+import Projects from '../../components/Projects/Projects';
+import ContactForm from '../../components/Contact/ContactForm';
+import About from '../../components/About/About';
 
 function MainPage() {
-  return (
-    <div>
-      <Intro />
-      <Container className="main" fluid>
-        <Row className="d-none d-md-block">
-          <Col md={1}>
-            <SideBar type="side-contact" iconColor="#0e2235" />
-          </Col>
+    return (
+        <div>
+            <Intro/>
+            <Container className="main" fluid>
+                <Row className="d-none d-md-block">
+                    <Col md={1}>
+                        <SideBar type="side-contact" iconColor="#0e2235"/>
+                    </Col>
         </Row>
         <Row>
           <Banner image={image} />
         </Row>
       </Container>
 
-      <Row className="timeline">
-        <Col xs={12} md={{offset: 1, span: 10}} xl={{offset: 0, span: 12}}>
-            <About/>
-            <Timeline/>
-        </Col>
-      </Row>
+            <Row className="timeline">
+                <Col xs={12} md={{offset: 1, span: 10}} xl={{offset: 0, span: 12}}>
+                    <About/>
+                    <Timeline/>
+                </Col>
+            </Row>
 
       <div id="projects">
         <Projects />
