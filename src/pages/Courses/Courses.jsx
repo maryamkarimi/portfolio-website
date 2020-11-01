@@ -29,11 +29,11 @@ function Courses() {
                 </h2>
               </Col>
 
-          </Row>
-          <Row>
-            <Col xs={{ span: 12 }}>
-              <Table id="courses-table">
-                <thead>
+            </Row>
+            <Row>
+              <Col xs={{span: 12}}>
+                <Table id="courses-table">
+                  <thead>
                   <tr>
                     <th><h6 className="font-weight-bold">Course Number</h6></th>
                     <th><h6 className="font-weight-bold">Course Name</h6></th>
