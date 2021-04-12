@@ -151,14 +151,14 @@
       "id": "CS 3346A",
       "schoolId": "MAIN_006812_1",
       "name": "Artificial Intelligence I",
-      "grade": "TBA"
+      "grade": "92"
     },
     {
       "school": "uwo",
       "id": "CS 3357A",
       "schoolId": "MAIN_011697_1",
       "name": "Computer Networks I",
-      "grade": "TBA"
+      "grade": "88"
     },
     {
       "school": "uwo",
@@ -166,13 +166,6 @@
       "schoolId": "MAIN_013689_1",
       "name": "Software Project Management",
       "grade": "80"
-    },
-    {
-      "school": "uwo",
-      "id": "CS 4411B",
-      "schoolId": "MAIN_011947_1",
-      "name": "Databases II",
-      "grade": "TBA"
     },
     {
       "school": "uwo",
@@ -190,6 +183,13 @@
     },
     {
       "school": "uwo",
+      "id": "CS 4442B",
+      "schoolId": "MAIN_009736_1",
+      "name": "Artificial Intelligence II",
+      "grade": "TBA"
+    },
+    {
+      "school": "uwo",
       "id": "CS 4470Y",
       "schoolId": "MAIN_013690_1",
       "name": "Software Maintenance & Configuration Management",
@@ -200,7 +200,7 @@
       "id": "CS 4474A",
       "schoolId": "MAIN_013694_1",
       "name": "Human-Computer Interaction",
-      "grade": "TBA"
+      "grade": "97"
     },
     {
       "school": "uwo",
