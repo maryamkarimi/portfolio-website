@@ -1,4 +1,52 @@
 {
-  "projects": [],
-  "skills": []
+  "projects": [
+    {
+      "name": "Psychology Survey Application",
+      "url": "https://github.com/maryamkarimi/pgp-ui"
+    },
+    {
+      "name": "AI Image Edge/Corner Detector",
+      "url": "https://github.com/maryamkarimi/image-processing"
+    },
+    {
+      "name": "TCP Server/Client/Proxy",
+      "url": "https://github.com/maryamkarimi/tcp-server-client"
+    },
+    {
+      "name": "Recipe Application",
+      "url": "https://github.com/maryamkarimi/recipe-app"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Socket Programming"
+    },
+    {
+      "name": "Synchronous Distributed Algorithms"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "ElasticSearch"
+    },
+    {
+      "name": "Hadoop MapReducer"
+    },
+    {
+      "name": "Lucene"
+    },
+    {
+      "name": "AWS Amplify"
+    },
+    {
+      "name": "Artificial Intelligence"
+    },
+    {
+      "name": "Matlab"
+    }
+  ]
 }

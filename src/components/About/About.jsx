@@ -24,9 +24,6 @@ function About() {
               After I graduated from highschool, I moved to Canada to pursue a degree
               in Computer Science.
           </h4>
-          <h4>
-              I&apos;m open to opportunities upon my graduation in May 2021.
-          </h4>
       </div>
   );
   return (
