@@ -2,6 +2,8 @@ import React from 'react';
 import './Education.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import data from '../../assets/content/university4.json';
+import ProjectSkills from '../ProjectsSkills/ProjectSkills';
 
 function University13() {
   return (
@@ -21,6 +23,7 @@ function University13() {
                           Graduating May 2021
                       </h5>
                   </Row>
+                  <ProjectSkills data={data} />
               </Container>
           </Row>
 
