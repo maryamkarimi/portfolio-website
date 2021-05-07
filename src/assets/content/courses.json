@@ -172,28 +172,28 @@
       "id": "CS 4417B",
       "schoolId": "MAIN_028240_1",
       "name": "Unstructured Data",
-      "grade": "TBA"
+      "grade": "94"
     },
     {
       "school": "uwo",
       "id": "CS 4438B",
       "schoolId": "MAIN_017248_1",
       "name": "Internet Algorithms",
-      "grade": "TBA"
+      "grade": "100"
     },
     {
       "school": "uwo",
       "id": "CS 4442B",
       "schoolId": "MAIN_009736_1",
       "name": "Artificial Intelligence II",
-      "grade": "TBA"
+      "grade": "92"
     },
     {
       "school": "uwo",
       "id": "CS 4470Y",
       "schoolId": "MAIN_013690_1",
       "name": "Software Maintenance & Configuration Management",
-      "grade": "TBA"
+      "grade": "91"
     },
     {
       "school": "uwo",
@@ -207,7 +207,7 @@
       "id": "CS 4478Y",
       "schoolId": "MAIN_026494_1",
       "name": "Master the Mainframe",
-      "grade": "TBA"
+      "grade": "100"
     }
   ]
 }
