@@ -32,6 +32,4 @@ deploy:
       run: aws s3 sync ./public/ s3://${{ secrets.AWS_PRODUCTION_BUCKET_NAME }} --delete
 
     - name: Invalidate Cloudfront CDN
-        run: aws cloudfront create-invalidation --distribution-id=$CLOUDFRONT_DISTRIBUTION_ID --paths '/*'
-        env:
-          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+        run: aws cloudfront create-invalidation --distribution-id=${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths '/*'
