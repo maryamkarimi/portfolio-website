@@ -29,7 +29,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Build React App
-          run: yarn install && yarn build
+        run: yarn install && yarn build
 
       - name: Deploy static site to S3 bucket
         run: aws s3 sync ./public/ s3://${{ secrets.AWS_PRODUCTION_BUCKET_NAME }}
