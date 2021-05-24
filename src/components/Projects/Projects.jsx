@@ -12,8 +12,7 @@ function Projects() {
           <Container fluid>
               <Row>
                   <Col
-                      xs={12}
-                      md={{ offset: 1, span: 10 }}
+                      xs={{ offset: 1, span: 10 }}
                   >
                       <h2 id="projects-title">Featured Projects</h2>
                       <Row className="display-flex">

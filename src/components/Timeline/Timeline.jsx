@@ -1,8 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSchool, faGraduationCap, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import autodata from '../../assets/content/autodata.json';
@@ -11,6 +9,7 @@ import highschool from '../../assets/content/highschool.json';
 import university from '../../assets/content/university.json';
 import TimelineItem from '../TimelineItem/TimelineItem';
 import './Timeline.scss';
+import Icon from '../../assets/logos';
 
 function Timeline() {
   return (
@@ -19,8 +18,7 @@ function Timeline() {
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
                   date="2012-2016"
-                  iconStyle={{ background: '#fff' }}
-                  icon={<FontAwesomeIcon icon={faSchool} size="2x" color="#343a40" />}
+                  icon={<Icon name="highschool" />}
               >
                   <TimelineItem data={highschool} />
               </VerticalTimelineElement>
@@ -28,8 +26,7 @@ function Timeline() {
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
                   date="2017 - 2021"
-                  iconStyle={{ background: '#fff' }}
-                  icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" color="#343a40" />}
+                  icon={<Icon name="university" />}
               >
                   <TimelineItem data={university}>
                       <Row>
@@ -48,8 +45,7 @@ function Timeline() {
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
                   date="2019 - 2020"
-                  iconStyle={{ background: '#fff' }}
-                  icon={<FontAwesomeIcon icon={faLaptopCode} size="2x" color="#343a40" />}
+                  icon={<Icon name="autodata" />}
               >
                   <TimelineItem data={autodata} />
               </VerticalTimelineElement>
@@ -57,8 +53,7 @@ function Timeline() {
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
                   date="2021 - 2021"
-                  iconStyle={{ background: '#fff' }}
-                  icon={<FontAwesomeIcon icon={faLaptopCode} size="2x" color="#343a40" />}
+                  icon={<Icon name="shopify" />}
               >
                   <TimelineItem data={shopify} />
               </VerticalTimelineElement>

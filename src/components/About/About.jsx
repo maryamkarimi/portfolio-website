@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import './About.scss';
 import Col from 'react-bootstrap/Col';
-import image from '../../assets/about.jpeg';
+import image from '../../assets/images/about.jpeg';
 
 function About() {
   const aboutText = () => (
