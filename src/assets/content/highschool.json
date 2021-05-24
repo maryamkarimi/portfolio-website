@@ -1,4 +1,10 @@
 {
+  "name": "Farzanegan Highschool (NODET), Tehran, Iran",
+  "description": [
+    "National Organization for Development of Exceptional Talents (NODET) is an organization that recruits students for middle and highschools through a two-step set of exams. The organization is aimed to provide a unique educational environment for the exceptionally talented students.",
+    "GPA: 4.0"
+  ],
+  "website": "https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents",
   "projects": [
     {
       "name": "Junior Soccer Robots",

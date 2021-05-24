@@ -3,10 +3,13 @@ import Container from 'react-bootstrap/Container';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSchool, faGraduationCap, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import University13 from '../Education/University1-3';
-import WorkExperience from '../Work/WorkExperience';
-import HighSchool from '../Education/HighSchool';
-import University4 from '../Education/University4';
+import { Link } from 'react-router-dom';
+import Row from 'react-bootstrap/Row';
+import autodata from '../../assets/content/autodata.json';
+import shopify from '../../assets/content/shopify.json';
+import highschool from '../../assets/content/highschool.json';
+import university from '../../assets/content/university.json';
+import TimelineItem from '../TimelineItem/TimelineItem';
 import './Timeline.scss';
 
 function Timeline() {
@@ -19,16 +22,27 @@ function Timeline() {
                   iconStyle={{ background: '#fff' }}
                   icon={<FontAwesomeIcon icon={faSchool} size="2x" color="#343a40" />}
               >
-                  <HighSchool />
+                  <TimelineItem data={highschool} />
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
-                  date="2017 - 2019"
+                  date="2017 - 2021"
                   iconStyle={{ background: '#fff' }}
                   icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" color="#343a40" />}
               >
-                  <University13 />
+                  <TimelineItem data={university}>
+                      <Row>
+                          <Link to="/courses">
+                              <button type="button" className="learn-more">
+                                  <span className="circle">
+                                      <span className="icon arrow" />
+                                  </span>
+                                  <h6 className="button-text">See courses and grades</h6>
+                              </button>
+                          </Link>
+                      </Row>
+                  </TimelineItem>
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
@@ -37,16 +51,16 @@ function Timeline() {
                   iconStyle={{ background: '#fff' }}
                   icon={<FontAwesomeIcon icon={faLaptopCode} size="2x" color="#343a40" />}
               >
-                  <WorkExperience />
+                  <TimelineItem data={autodata} />
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
                   contentArrowStyle={{ borderRight: '7px solid #343a40' }}
-                  date="2020 - 2021"
+                  date="2021 - 2021"
                   iconStyle={{ background: '#fff' }}
-                  icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" color="#343a40" />}
+                  icon={<FontAwesomeIcon icon={faLaptopCode} size="2x" color="#343a40" />}
               >
-                  <University4 />
+                  <TimelineItem data={shopify} />
               </VerticalTimelineElement>
 
           </VerticalTimeline>

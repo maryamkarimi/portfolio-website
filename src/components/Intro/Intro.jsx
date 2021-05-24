@@ -21,8 +21,9 @@ function Intro() {
                               I&apos;m a fullstack software developer based in London, Ontario.
                           </h5>
                           <h5>
-                              I&apos;m currently completing my last year of Honors Specialization
-                              in Computer Science at Western University.
+                              I&apos;ve recently completed an Honors Specialization in
+                              Computer Science at Western University. I&apos;m currently
+                              working at Shopify as a backend developer intern.
                           </h5>
                       </div>
 

@@ -1,4 +1,11 @@
 {
+  "name": "The University of Western Ontario, London, Canada",
+  "description": [
+    "Honours Specialization in Computer Science",
+    "Minor in Software Engineering",
+    "GPA: 3.9"
+  ],
+  "website": "https://uwo.ca",
   "projects": [
     {
       "name": "Psychology Survey Application",
@@ -15,14 +22,37 @@
     {
       "name": "Recipe Application",
       "url": "https://github.com/maryamkarimi/recipe-app"
+    },
+    {
+      "name": "Magic Mirror",
+      "description": ""
+    },
+    {
+      "name": "Course Management",
+      "url": "https://github.com/maryamkarimi/Course-Management"
     }
   ],
   "skills": [
     {
+      "name": "Data Structures"
+    },
+    {
+      "name": "Algorithms"
+    },
+    {
       "name": "Socket Programming"
     },
     {
-      "name": "Synchronous Distributed Algorithms"
+      "name": "Java"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Git"
     },
     {
       "name": "Python"
@@ -38,12 +68,6 @@
     },
     {
       "name": "Lucene"
-    },
-    {
-      "name": "AWS Amplify"
-    },
-    {
-      "name": "Artificial Intelligence"
     },
     {
       "name": "Matlab"

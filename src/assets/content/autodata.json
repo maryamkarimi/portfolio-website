@@ -1,6 +1,10 @@
 {
+  "name": "J.D. Power, London, Canada",
   "description": [
+    "Division of Autodata Solutions",
+    "Software Development Internship"
   ],
+  "website": "https://jdpower.com",
   "projects": [
     {
       "name": "IOM",

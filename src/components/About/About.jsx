@@ -10,8 +10,7 @@ function About() {
       <div>
           <h4>
               Hello! My name is Maryam.
-              I&apos;m a fullstack software developer
-              and a 4th year Computer Science student at Western University.
+              I&apos;m a fullstack software developer and a recent graduate of Western University.
           </h4>
           <h4>
               I started programming when I was 12 years old. When I was 14,
