@@ -35,7 +35,6 @@ function MainPage() {
           </Row>
 
           <div id="projects">
-              <Projects />
               <Row className="d-none d-md-block">
                   <h6 className="text-center">
                       Designed and Built by Maryam Karimi
