@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import autodata from '../../assets/content/autodata.json';
 import shopify from '../../assets/content/shopify.json';
+import google from '../../assets/content/google.json';
 import highschool from '../../assets/content/highschool.json';
 import university from '../../assets/content/university.json';
 import TimelineItem from '../TimelineItem/TimelineItem';
@@ -56,6 +57,14 @@ function Timeline() {
                   icon={<Icon name="shopify" />}
               >
                   <TimelineItem data={shopify} />
+              </VerticalTimelineElement>
+
+              <VerticalTimelineElement
+                  contentArrowStyle={{ borderRight: '7px solid #343a40' }}
+                  date="2021 - Present"
+                  icon={<Icon name="google" />}
+              >
+                  <TimelineItem data={google} />
               </VerticalTimelineElement>
 
           </VerticalTimeline>

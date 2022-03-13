@@ -8,7 +8,6 @@ import Intro from '../../components/Intro/Intro';
 import Banner from '../../components/Banner/Banner';
 import image from '../../assets/images/background.jpg';
 import Timeline from '../../components/Timeline/Timeline';
-import Projects from '../../components/Projects/Projects';
 import ContactForm from '../../components/Contact/ContactForm';
 import About from '../../components/About/About';
 

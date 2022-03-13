@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import universityLogo from '../images/universityLogo.gif';
-import highschoolLogo from '../images/sampadLogo.jpg';
-import shopifyLogo from '../images/shopifyLogo.jpg';
+import highschoolLogo from '../images/sampadLogo.png';
+import shopifyLogo from '../images/shopifyLogo.png';
 import autodataLogo from '../images/autodataLogo.jpg';
 import googleLogo from '../images/googleLogo.png';
 import './logos.scss';
