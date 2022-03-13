@@ -18,19 +18,13 @@ function Intro() {
                       </h1>
                       <div className="intro">
                           <h5>
-                              I&apos;m a fullstack software developer based in London, Ontario.
+                              I&apos;m a software developer at Google.
                           </h5>
                           <h5>
                               I&apos;ve recently completed an Honors Specialization in
-                              Computer Science at Western University. I&apos;m currently
-                              working at Shopify as a backend developer intern.
+                              Computer Science at Western University and currently live in Waterloo, Ontario.
                           </h5>
                       </div>
-
-                      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
-                          Resume
-                      </a>
-
                   </Col>
               </Row>
           </Container>
