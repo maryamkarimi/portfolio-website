@@ -4,6 +4,7 @@ import universityLogo from '../images/universityLogo.gif';
 import highschoolLogo from '../images/sampadLogo.jpg';
 import shopifyLogo from '../images/shopifyLogo.jpg';
 import autodataLogo from '../images/autodataLogo.jpg';
+import autodataLogo from '../images/googleLogo.jpg';
 import './logos.scss';
 
 const iconsLookup = {
@@ -11,6 +12,7 @@ const iconsLookup = {
   highschool: highschoolLogo,
   shopify: shopifyLogo,
   autodata: autodataLogo,
+  google: googleLogo,
 };
 
 const Icon = ({ name }) => (
