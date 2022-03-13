@@ -4,7 +4,7 @@ import universityLogo from '../images/universityLogo.gif';
 import highschoolLogo from '../images/sampadLogo.jpg';
 import shopifyLogo from '../images/shopifyLogo.jpg';
 import autodataLogo from '../images/autodataLogo.jpg';
-import autodataLogo from '../images/googleLogo.png';
+import googleLogo from '../images/googleLogo.png';
 import './logos.scss';
 
 const iconsLookup = {
